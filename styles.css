@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(20, 36, 37);
+    padding: 0%;
+    margin: 0%;
+    background-image: url(pozadina.jpg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:hover {
+    background-color: rgb(255, 161, 161);
+    color: black;
+    font-size: 30px;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: small;
+}
+
+p {
+    text-align: center;
+    font-size: larger;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+* {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-variant: small-caps;
+}
+
+.slike {
+    background-color: aliceblue;
+    width: 1400px;
+    height: 400px;
+    position: relative;
+    left: 250px;
+    border: 1px solid ;
+}
+
+.img1 {
+   position: absolute;
+}
+
+.img2 {
+   position: absolute;
+   left: 700px;
+}
+
+.snimci {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 1400px;
+    height: 400px;
+    background-color: aliceblue;
+    position: relative;
+    left: 250px;
+    border: 1px solid white;
+}
+
+.snimci #video1 {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    
+}
+.snimci #video2 {
+    position: absolute;
+    width: 700px;
+    height: 400px;
+    left: 700px;
+}
+
+.patch {
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#pac {
+    font-size: 50px;
+}
